@@ -36,5 +36,6 @@ if __name__ == '__main__':
     print("commit 4")
     print("commit 5")
     print("commit 6")
+    print("commit 7 from development")
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
