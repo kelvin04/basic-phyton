@@ -31,6 +31,6 @@ if __name__ == '__main__':
     print(4 ** 2)
     print(type(str(4.2)))
     print(float('12'))
-
+    print("commit")
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
