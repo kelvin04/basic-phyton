@@ -96,14 +96,14 @@ def get_total_attachments():
 
 
 def final_project_function():
-    print("Selamat datang di program pengirim pesan!")
-    print("Masukan email dan password gmail anda")
-
     # Menyimpan daftar email ke dalam list
     receiver_list = set_txt_data_to_list()
 
     # Mengubah list data type menjadi string dengan koma, untuk pengiriman email dengan banyak tujuan
     receiver_list_str_type = ", ".join(receiver_list)
+
+    print("Selamat datang di program pengirim pesan!")
+    print("Silahkan input email dan password gmail anda")
 
     # Login ke gmail server
     credential = login_to_gmail_server()
